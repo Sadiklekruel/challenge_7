@@ -1,3 +1,24 @@
+header .navbar {
+  background-color: #330d03; }
 
+header {
+  background-color: #330d03;
+  color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar {
+  border: none; }
+
+h1, header p {
+  text-align: center; }
+
+li {
+  list-style: none; }
+
+footer {
+  background-color: #063045;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

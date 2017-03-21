@@ -1,0 +1,27 @@
+$color-text-on-background: white;
+$background-color-header: rgb(51, 13, 3);
+$footer-color: rgb(6, 48, 69);
+
+header .navbar {
+    background-color: $background-color-header;
+}
+header {
+    background-color: $background-color-header;
+    color: $color-text-on-background;
+}
+.navbar-default .navbar-nav > li > a {
+    color: $color-text-on-background;
+}
+.navbar {
+    border: none;
+}
+h1, header p {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+footer {
+    background-color: $footer-color;
+    color: $color-text-on-background;
+}
