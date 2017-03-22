@@ -1,3 +1,6 @@
+body {
+  background-color: #f1f1f1; }
+
 header .navbar {
   background-color: #330d03; }
 
@@ -18,9 +21,23 @@ h1, .btn {
 .btn {
   background-color: #b17d25;
   border-color: #b17d25;
-  padding: 1em 3em; }
+  padding: 1em 2em; }
 
 h1, header p {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: bold; }
+
+h1 {
+  margin-top: 3.5em; }
+
+header p {
+  font-size: 3em;
+  margin: 1em 0; }
+
+h2 {
+  font-family: 'Lora', serif;
+  margin: 2em;
   text-align: center; }
 
 li {
@@ -28,6 +45,12 @@ li {
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none; }
+
+article {
+  margin: 1em 0;
+  padding: 0.3em;
+  background-color: white;
+  box-shadow: 0.5em 0.5em 0.2em lightgrey; }
 
 .buy {
   color: #95763f;
@@ -41,15 +64,21 @@ a:link, a:visited, a:hover, a:active {
   color: grey;
   font-weight: bolder; }
 
-footer {
-  background-color: #063045;
-  color: white; }
-
 .price {
   font-weight: bolder;
   color: black; }
 
 .product {
   color: black; }
+
+footer {
+  background-color: #063045;
+  color: white; }
+
+#boutonok {
+  background-color: #063045;
+  border-color: white;
+  padding: 0.3em 1em;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */

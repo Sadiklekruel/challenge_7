@@ -2,6 +2,9 @@ $color-text-on-background: white;
 $background-color-header: rgb(51, 13, 3);
 $background-color-footer: rgb(6, 48, 69);
 
+body {
+    background-color: rgb(241, 241, 241);
+}
 header .navbar {
     background-color: $background-color-header;
 }
@@ -22,9 +25,23 @@ h1, .btn {
 .btn {
     background-color: rgb(177, 125, 37);
     border-color: rgb(177, 125, 37);
-    padding: 1em 3em;
+    padding: 1em 2em;
 }
 h1, header p {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+h1 {
+    margin-top: 3.5em;
+}
+header p {
+    font-size: 3em;
+    margin: 1em 0;
+}
+h2 {
+    font-family: 'Lora', serif;
+    margin: 2em;
     text-align: center;
 }
 li {
@@ -32,6 +49,12 @@ li {
 }
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
+}
+article {
+    margin: 1em 0;
+    padding: 0.3em;
+    background-color: white;
+    box-shadow: 0.5em 0.5em 0.2em lightgrey;
 }
 .buy{
     color: rgb(149, 118, 63);
@@ -45,14 +68,21 @@ a:link, a:visited, a:hover, a:active {
     color: grey;
     font-weight: bolder;
 }
-footer {
-    background-color: $background-color-footer;
-    color: $color-text-on-background;
-}
+
 .price {
     font-weight: bolder;
     color:black;
 }
 .product {
     color:black;
+}
+footer {
+    background-color: $background-color-footer;
+    color: $color-text-on-background;
+}
+#boutonok {
+    background-color: $background-color-footer;
+    border-color: $color-text-on-background;
+    padding: 0.3em 1em;
+    border-radius: 5px;
 }
