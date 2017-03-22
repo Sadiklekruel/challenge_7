@@ -44,6 +44,9 @@ h2 {
     margin: 2em;
     text-align: center;
 }
+ul {
+    padding: 0;
+}
 li {
     list-style: none;
 }
@@ -56,6 +59,9 @@ article {
     background-color: white;
     box-shadow: 0.5em 0.5em 0.2em lightgrey;
 }
+.status {
+    margin: 1em 0;
+}
 .buy{
     color: rgb(149, 118, 63);
     font-weight: bolder;
@@ -64,7 +70,7 @@ article {
     color: yellow;
     font-weight: bolder;
 }
-.status {
+.sold {
     color: grey;
     font-weight: bolder;
 }
@@ -76,9 +82,24 @@ article {
 .product {
     color:black;
 }
+.main {
+    margin-bottom: 3em;
+}
 footer {
     background-color: $background-color-footer;
     color: $color-text-on-background;
+    padding-bottom: 2em;
+}
+h3 {
+    font-family: 'Lora', serif;
+    margin: 2em 0 1em;
+}
+footer a {
+    padding-left: 1em;
+    color: white;
+}
+input {
+    color: black;
 }
 #boutonok {
     background-color: $background-color-footer;
