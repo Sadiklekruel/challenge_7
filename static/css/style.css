@@ -3,7 +3,8 @@ header .navbar {
 
 header {
   background-color: #330d03;
-  color: white; }
+  color: white;
+  padding-bottom: 8em; }
 
 .navbar-default .navbar-nav > li > a {
   color: white; }
@@ -11,14 +12,44 @@ header {
 .navbar {
   border: none; }
 
+h1, .btn {
+  text-transform: uppercase; }
+
+.btn {
+  background-color: #b17d25;
+  border-color: #b17d25;
+  padding: 1em 3em; }
+
 h1, header p {
   text-align: center; }
 
 li {
   list-style: none; }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none; }
+
+.buy {
+  color: #95763f;
+  font-weight: bolder; }
+
+.onSale {
+  color: yellow;
+  font-weight: bolder; }
+
+.status {
+  color: grey;
+  font-weight: bolder; }
+
 footer {
   background-color: #063045;
   color: white; }
+
+.price {
+  font-weight: bolder;
+  color: black; }
+
+.product {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */

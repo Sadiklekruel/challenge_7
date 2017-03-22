@@ -1,6 +1,6 @@
 $color-text-on-background: white;
 $background-color-header: rgb(51, 13, 3);
-$footer-color: rgb(6, 48, 69);
+$background-color-footer: rgb(6, 48, 69);
 
 header .navbar {
     background-color: $background-color-header;
@@ -8,6 +8,7 @@ header .navbar {
 header {
     background-color: $background-color-header;
     color: $color-text-on-background;
+    padding-bottom: 8em;
 }
 .navbar-default .navbar-nav > li > a {
     color: $color-text-on-background;
@@ -15,13 +16,43 @@ header {
 .navbar {
     border: none;
 }
+h1, .btn {
+    text-transform: uppercase;
+}
+.btn {
+    background-color: rgb(177, 125, 37);
+    border-color: rgb(177, 125, 37);
+    padding: 1em 3em;
+}
 h1, header p {
     text-align: center;
 }
 li {
     list-style: none;
 }
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+.buy{
+    color: rgb(149, 118, 63);
+    font-weight: bolder;
+}
+.onSale {
+    color: yellow;
+    font-weight: bolder;
+}
+.status {
+    color: grey;
+    font-weight: bolder;
+}
 footer {
-    background-color: $footer-color;
+    background-color: $background-color-footer;
     color: $color-text-on-background;
+}
+.price {
+    font-weight: bolder;
+    color:black;
+}
+.product {
+    color:black;
 }
