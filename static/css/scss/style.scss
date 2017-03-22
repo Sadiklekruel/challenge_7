@@ -1,5 +1,5 @@
 $color-text-on-background: white;
-$background-color-header: rgb(51, 13, 3);
+$background-color-header: #281400;
 $background-color-footer: rgb(6, 48, 69);
 
 body {
@@ -7,24 +7,38 @@ body {
 }
 header .navbar {
     background-color: $background-color-header;
+    border: none;
 }
 header {
     background-color: $background-color-header;
     color: $color-text-on-background;
     padding-bottom: 8em;
+    .navbar-nav {
+        float: none;
+        text-align: center;
+        li {
+            float: none;
+            display: inline-block;
+        }
+    }
 }
 .navbar-default .navbar-nav > li > a {
     color: $color-text-on-background;
 }
-.navbar {
+.navbar-form{
     border: none;
+    box-shadow: none;
+}
+.glyphicon-search {
+    padding-top: 0.5em;
 }
 h1, .btn {
     text-transform: uppercase;
 }
 .btn {
-    background-color: rgb(177, 125, 37);
-    border-color: rgb(177, 125, 37);
+    font-weight: bold;
+    background-color: #a28f61;
+    border-color: #a28f61;
     padding: 1em 2em;
 }
 h1, header p {
@@ -59,15 +73,18 @@ article {
     background-color: white;
     box-shadow: 0.5em 0.5em 0.2em lightgrey;
 }
+img {
+    margin-left: 0.2em;
+}
 .status {
-    margin: 1em 0;
+    margin: 0.2em 0;
 }
 .buy{
     color: rgb(149, 118, 63);
     font-weight: bolder;
 }
 .onSale {
-    color: yellow;
+    color: #ffcc00;
     font-weight: bolder;
 }
 .sold {
@@ -80,7 +97,8 @@ article {
     color:black;
 }
 .product {
-    color:black;
+    color: #4b5877;
+    margin: 0.2em 0;
 }
 .main {
     margin-bottom: 3em;
@@ -95,8 +113,15 @@ h3 {
     margin: 2em 0 1em;
 }
 footer a {
-    padding-left: 1em;
+    padding-left: 1.5em;
     color: white;
+}
+footer p {
+    display: inline-block;
+    padding-right: 3.5em;
+}
+footer i {
+    margin-right: 2em;
 }
 input {
     color: black;
